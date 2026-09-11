@@ -1,0 +1,9 @@
+[project]
+name = "ecbs5293-hw01-files-paths-terminal"
+version = "0.1.0"
+description = "ECBS5293 homework 1: files, paths, terminal, and run instructions"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "jupyterlab",
+]

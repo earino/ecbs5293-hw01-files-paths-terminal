@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Course-specific: generated output
+output/
+*.log
+
+# Secrets — never commit these
+.env
+*.key
+credentials.json
+
+# NOTE: data/ is deliberately NOT ignored. Course data files are small and
+# committed on purpose — the labs are about loading and inspecting real data.
